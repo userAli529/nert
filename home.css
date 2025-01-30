@@ -1,0 +1,314 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; 
+  color: #333; 
+  margin: 0; 
+  padding: 0; 
+  line-height: 1.6; 
+    min-height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    min-height: -webkit-fill-available;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+   font-family: Hauss, "Segoe UI", -apple-system, Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header {
+  display: block;
+  unicode-bidi: isolate;
+}
+.header {
+  flex: none;
+    z-index: 100;
+    background: #7200d7;
+    padding: 1px 0;
+    position: relative;
+
+}
+
+input{
+  height: 50px;
+ 
+  color: #242424;
+
+  appearance: none;
+  caret-color: #a73afd;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  margin: 0;
+  padding: 8px 80px 10px 12px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: -10px;
+
+
+}
+
+ textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+    background-color: #a86500;   
+   
+}
+
+header img:first-of-type {
+    height: 60px;
+    object-fit: contain;
+}
+
+.shapka {
+    display: flex;
+    gap: 20px;
+} 
+
+.shapka a {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    margin-left: 10px;
+}
+
+.shapka a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.shapka a:hover img {
+    border-color: #007bff;
+    transform: scale(1.1);
+    
+}
+
+.shapka a:hover {
+    opacity: 0.8;
+}
+
+/* Main  ысмиолшжууууууууууууууууууууууууууууууууууууууууууук*/
+main {
+    max-width: 1200px;
+    margin:  auto;
+
+
+}
+
+.product  {
+    text-align: center;
+   margin-top: -25px;
+
+}
+.LLO{
+  margin-top: -20px;
+}
+ h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+
+/* /* -------------------------------------------card---------------------------------------------- */
+  
+#product-card__wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 столбца */
+  gap: 10px; /* Расстояние между карточками */
+  justify-content: center;
+  align-items: start;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 175px; /* Фиксированная ширина карточек */
+  height: auto;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 11px;
+}
+
+.product-card h2, .product-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.button {
+  width: 90%;
+  padding: 10px;
+  background: linear-gradient(to right, #8a2be2, #4b0082); /* Фиолетовый градиент */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+h2, p {
+  box-sizing: border-box;
+  color: rgb(36, 36, 36);
+  color-scheme: normal;
+  display: block;
+  font-family: Hauss, "Segoe UI", -apple-system, Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px; 
+  font-variation-settings: "wght" 450;
+  font-weight: 400;
+margin-left: 20px;
+  margin-top: 4px;
+  outline-color: rgb(36, 36, 36);
+  outline-style: none;
+  outline-width: 0px;
+  position: relative;
+  text-rendering: geometricPrecision;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: auto; 
+  width: 200px;
+  top: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 11px;
+}
+
+
+ /* --------------------------------------------------footer------------------------------------------------- */
+ footer {
+  background-color: #7200d7; 
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #ddd;
+}
+.footer-container p,a{
+  color: #ffffff;
+  
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #3654ff;
+}
+
+.footer-container a {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.footer-container a:hover {
+    transform: scale(1.1);
+}
+
+.footer-container img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+ color: #ffffff;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+
+.footer-container img:hover {
+    border-color: #007bff;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+.LogoNet{
+  border-radius: 50%;
+  border: 2px solid #ccc; 
+}
+.LogoNet:hover{
+  
+  border-color: #007bff;
+  transform: scale(1.1);
+}
+.LLO{
+  height: 50px;
+}
+.Net {
+margin-left: -850px;
+color: #000000;
+}
+/* las;s'l */
+
+.iaa{
+  max-width: 230px;
+  max-height: 200px;
+}
+.card{
+  margin-top: 20px;
+}
+/* -----------------------------------button card---------------------------- */
+
+.button {
+  width: 180px;
+  height: 40px;
+  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+  border: none;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  box-shadow: 1px 3px 0px rgb(139, 113, 255);
+  transition-duration: .3s;
+}
+
+.cartIcon {
+  width: 14px;
+  height: fit-content;
+}
+
+.cartIcon path {
+  fill: white;
+}
+
+.button:active {
+  transform: translate(2px ,0px);
+  box-shadow: 0px 1px 0px rgb(139, 113, 255);
+  padding-bottom: 1px;
+}
